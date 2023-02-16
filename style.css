@@ -1,0 +1,77 @@
+/* Background for body element  Part H1*/
+body{
+    background-color: #ced4d8;
+}
+/* Part H2. */
+h1{
+    color:#AC6AC7;
+}
+/* Part H3 */
+h2{
+    color:rgb(255,165,0);
+}
+/* Part H4  */
+li{
+    color:blue;
+}
+/* Part H5 */
+p{
+    background-color: gold;
+}
+/* Part H6 */
+input[type=text] {
+    border: 5px dotted pink;
+}
+input[type=email] {
+    border: 5px dotted pink;
+}
+/* Part H7 */
+.first{
+    background-color: #fff;
+}
+/* Part H8 */
+#important {
+    border: 3px dashed #0000ff;
+}
+/* Part H9 */
+div p {
+    font-size: 30px;
+}
+/* Part H10 */
+input[type=email] {
+    background-color: #808080;
+}
+/* Part H11 */
+div:nth-of-type(3) p {
+    background-color: hotpink;
+}
+/* Part H12 */
+div:nth-of-type(3) p:nth-of-type(2){
+    border: 7px solid rgb(255,255,255);
+}
+/* Part H13 */
+div:nth-of-type(3) em {
+    color:seashell;
+    font-size: 25px;
+}
+/* Bonus 1*/
+input:checked {
+margin-left: 40px;
+} 
+/* Bonus 2 */
+label {
+    text-transform: lowercase;
+}
+/* Bonus 3 */
+#important::first-letter {
+        color: lime;
+        font-size: 90px;
+    } 
+/* Bonus 4 */
+h1:hover {
+color: navy;
+}
+/* Bonus 5 */
+a:visited {
+    color: silver;
+}
